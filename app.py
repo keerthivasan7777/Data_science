@@ -11,7 +11,7 @@ import streamlit as st
 
 @st.cache
 def load_data():
-    dataset = pd.read_csv('C:\\Users\\Keerthivasan R\\OneDrive\\Desktop\\Internship_DS_Project\\cleaned_data.csv', encoding='latin1')
+    dataset = pd.read_csv('cleaned_data.csv', encoding='latin1')
     
     # Encode categorical columns
     encoders = {}
